@@ -2,10 +2,105 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Personal Site</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Add your HTML content here -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="brand">My Portfolio</div>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero-section">
+      <div class="container hero-content">
+        <div class="profile-photo"></div>
+        <h1>Khaled Albkeirat</h1>
+        <p class="tagline">Computer Engineering student | Exploring web development and AI</p>
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <div class="container section-content">
+        <h2>About Me</h2>
+        <p>I'm a Computer Engineering student at UC Riverside with a passion for technology and building things. I'm currently developing my skills in web development and AI, and I'm always looking for new ways to apply what I learn to real projects.
+</p>
+      </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+      <div class="container section-content">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <img src="img/html5-brands-solid-full.svg" alt="HTML5 icon">
+            <span>HTML</span>
+          </div>
+          <div class="skill-card">
+            <img src="img/css-brands-solid-full.svg" alt="CSS icon">
+            <span>CSS</span>
+          </div>
+          <div class="skill-card">
+            <img src="img/js-brands-solid-full.svg" alt="JavaScript icon">
+            <span>JavaScript</span>
+          </div>
+          <div class="skill-card">
+            <img src="img/python-brands-solid-full.svg" alt="Python icon">
+            <span>Python</span>
+          </div>
+          <div class="skill-card">
+            <img src="img/square-git-brands-solid-full.svg" alt="Git icon">
+            <span>Git</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+      <div class="container section-content">
+        <h2>Projects</h2>
+        <div class="project-grid">
+          <article class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>A responsive portfolio site with clean sections and smooth navigation. Designed to highlight personal projects and skills.</p>
+          </article>
+          <article class="project-card">
+            <h3>Task Tracker</h3>
+            <p>A simple app to manage daily tasks, featuring a modern interface and interactive project cards for quick updates.</p>
+          </article>
+          <article class="project-card">
+            <h3>Blog Landing Page</h3>
+            <p>A polished landing page layout with blog previews and a clear content hierarchy for improved reader engagement.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="container section-content">
+        <h2>Contact</h2>
+        <p>Feel free to connect with me on LinkedIn and GitHub.</p>
+        <div class="contact-links">
+          <a href="https://www.linkedin.com/in/khaled-albk/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://github.com/Kalbk216" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© 2026 Khaled Albkeirat. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
